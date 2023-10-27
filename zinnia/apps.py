@@ -4,6 +4,7 @@ from django.utils.translation import gettext_lazy as _
 
 
 class ZinniaConfig(AppConfig):
+    default_auto_field = "django.db.models.BigAutoField"
     """
     Config for Zinnia application.
     """
